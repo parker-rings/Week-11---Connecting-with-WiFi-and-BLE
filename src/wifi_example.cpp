@@ -146,11 +146,11 @@ void turnOnRed() {
     neopixelWrite(PIN_NEOPIXEL,255,0,0);
 }
 
-void turnOnBlue() {
+void turnOnGreen() {
     neopixelWrite(PIN_NEOPIXEL,0,255,0);
 }
 
-void turnOnGreen() {
+void turnOnBlue() {
     neopixelWrite(PIN_NEOPIXEL,0,0,255);
 }
 
